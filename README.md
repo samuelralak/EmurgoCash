@@ -1,11 +1,11 @@
-# Emurpas
-Emurgo Project Appraisal System
+# EmurgoCash
+Emurgo expense tracking system
 
 ## The problem
-Emurgo doesn't currently have a way to concisely track applications for the accelerator programme or investment funding. This makes it difficult to understand the overall picture or streamline any part of the process (what isn't measured is difficult to improve).
+Emurgo doesn't currently have a way to concisely track expenses.
 
 ## The solution
-The simplest possible solution to this problem is to create the most basic possible system to handle application forms. Emurpas is not intended to ever be complete because that implies being able to accurate predict what will be needed in future, so instead we use the C4 to iteratively build out the rest of the system based on the Serbian Model (logging problems and then sending minimal patches providing the simplest possible solution). This means Emurpas will be a living system that is able to frictionlessly keep up with changes in the blockchain landscape.
+The simplest possible solution to this problem is to create the most basic possible system to handle expenses. EmurgoCash is not intended to ever be complete because that implies being able to accurate predict what will be needed in future, so instead we use the C4 to iteratively build out the rest of the system based on the Serbian Model (logging problems and then sending minimal patches providing the simplest possible solution). This means EmurgoCash will be a living system that is able to frictionlessly keep up with changes in the blockchain landscape.
 
 <details>
   <summary>How to run Emurpas locally</summary>
@@ -21,7 +21,7 @@ curl https://install.meteor.com/ | sh
 git clone https://github.com/EmurgoHK/Emurpas.git
 ```
 
-Note: if you want to edit things and send a pull request you should _fork_ this project on Github first and clone _your_ fork instead of https://github.com/EmurgoHK/Emurpas.git.
+Note: if you want to edit things and send a pull request you should _fork_ this project on Github first and clone _your_ fork instead of https://github.com/EmurgoHK/EmurgoCash.git.
 
 #### Install Dependencies   
 ```
@@ -59,7 +59,7 @@ If you do a `git pull` and Meteor doesn't start, the first thing to do is run `m
 </details>    
 
 
-## Contributing to Emurpas    
+## Contributing to EmurgoCash    
 A cardinal sin that many open source developers make is to place themselves above others. "I founded this project thus my intellect is superior to that of others". It's immodest and rude, and usually inaccurate. The contribution policy we use at Emurpas applies equally to everyone, without distinction.    
 
 The contribution policy we follow is the [Collective Code Construction Contract (C4)](/CONTRIBUTING.MD)    
